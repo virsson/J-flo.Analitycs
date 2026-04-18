@@ -1,0 +1,9 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(tar -xzvf search_console.tar.gz)",
+      "Bash(python -m pip install -r requirements.txt)",
+      "Bash(python search_console.py)"
+    ]
+  }
+}
