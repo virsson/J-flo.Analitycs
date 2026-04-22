@@ -1,4 +1,6 @@
 client_secret.json
 token.json
+keywords.xlsx
+reports/
 __pycache__/
 *.pyc

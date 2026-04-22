@@ -1,0 +1,9 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(python -X utf8 submit_sitemaps.py --dry-run)",
+      "Bash(python -X utf8 submit_sitemaps.py)",
+      "Bash(python -X utf8 -c ' *)"
+    ]
+  }
+}

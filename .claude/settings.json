@@ -3,7 +3,14 @@
     "allow": [
       "Bash(tar -xzvf search_console.tar.gz)",
       "Bash(python -m pip install -r requirements.txt)",
-      "Bash(python search_console.py)"
+      "Bash(python search_console.py)",
+      "Bash(python -m pip install openpyxl)",
+      "Bash(python daily_report.py)",
+      "Bash(grep -E \"^\\\\.env$\")",
+      "Bash(python -X utf8 daily_report.py)",
+      "Bash(python -X utf8 -c ' *)",
+      "Bash(python -X utf8 check_chat.py)",
+      "Bash(python -X utf8 submit_sitemaps.py --list)"
     ]
   }
 }

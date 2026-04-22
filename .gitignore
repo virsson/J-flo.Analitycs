@@ -1,0 +1,9 @@
+.env
+.env.*
+!.env.example
+
+yandex_webmaster/yandex_token.json
+yandex_webmaster/__pycache__/
+
+__pycache__/
+*.pyc
